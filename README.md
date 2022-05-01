@@ -1,7 +1,6 @@
+React Project 
+Run Documentation : -
+
+Termial -> npm  run start
 
 
-
-
-
-
-Development and Integration branch created
