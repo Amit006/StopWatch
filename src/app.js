@@ -7,19 +7,16 @@ export default function App() {
   const [timer, setTimer] = useState(0);
 
   const startTimer = (e) => {
-    alert(" Timer started ");
     interVal.current = setInterval(() => {
       setTimer((time) => time + 1);
     }, 1000);
   };
 
   const stopTimer = (e) => {
-    alert(" Timer stoped ");
     clearInterval(interVal.current);
   };
 
   const resetTimer = (e) => {
-    alert(" resetTimer  ");
     clearInterval(interVal.current);
     setTimer(0);
   };
