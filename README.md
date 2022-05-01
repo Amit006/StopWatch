@@ -1,4 +1,4 @@
 Run Documentation : -
 
-npm  run start
+Termial -> npm  run start
 
